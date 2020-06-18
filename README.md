@@ -1,5 +1,5 @@
 # ML-DL
-Machine Learning and Deep Learning
+**Machine Learning** and **Deep Learning**
 
 Deep learning is a subset of machine learning. Machine learning is a subset of artificial intelligence (AI). 
 
