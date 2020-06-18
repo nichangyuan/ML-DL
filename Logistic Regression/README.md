@@ -1,1 +1,1 @@
-Machine learning / Logistic regression and other classification
+Machine learning / Logistic regression, other classification, and clustering
