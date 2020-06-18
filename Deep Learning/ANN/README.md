@@ -1,1 +1,1 @@
-lr_ANN: Applying Artificial Neural Networks (ANNs) for Linear Regression
+lr_ANN: Applying artificial neural networks (ANNs) for linear regression
