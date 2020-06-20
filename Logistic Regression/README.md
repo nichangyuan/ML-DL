@@ -4,4 +4,4 @@ Machine learning / Logistic regression, other classification, and clustering
 
 **Notebooks**:<br>
   modeling.ipynb is a logistic regression.<br>
-  modeling_rf.ipynb is a random forest analysis.<br>
+  modeling_rf.ipynb is a random forest classification.<br>
