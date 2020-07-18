@@ -1,6 +1,8 @@
 # ML-DL
 
 ![](https://github.com/nichangyuan/ML-DL/blob/master/ML.jpg?raw=true)
+[picture source]("https://www.sourcetoday.com/supply-chain/article/21867474/whats-the-role-of-machine-learning-in-procurement")
+
 
 **Machine Learning** and **Deep Learning**
 
