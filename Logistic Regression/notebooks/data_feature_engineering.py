@@ -5,6 +5,16 @@ Created on Fri Oct  2 10:55:35 2020
 @author: Chuck
 """
 
+'''These are collection of the following methods, to me DictVectorizer is easiest
+    LabelEncoder
+    OneHotEncoder
+    DictVectorizer
+    CountVectorizer
+    get_dummies
+    mapping by dictionary or lambda function
+    conditional transform using df.loc property
+'''
+
 '''rename column name, change case/type'''
 
 import pandas as pd; import numpy as np
@@ -28,6 +38,7 @@ df = pd.DataFrame(data, columns=('age', 'rbc', 'pc'))   #if age renamed, dtype w
 df.columns
 df.age.dtype
 df2 = df.copy()
+df3 = df.copy()
 # Categorical boolean mask
 categorical_feature_mask = df.dtypes==object
 # filter categorical columns using mask and turn it into a list
@@ -67,11 +78,13 @@ columns = colNames(df2, categorical_cols)
 columns
 
 new = pd.DataFrame(df_ohe, columns =columns)
-df3=df2.join(new)
-df3
+#this is array to dataframe
+#if you have Series to dataframe then do: new = Series_name.to_frame()
+df2_1=df2.join(new)
+df2_1
 # or
-df3 = pd.concat([df2, new], axis=1)
-df3
+df2_2 = pd.concat([df2, new], axis=1)
+df2_2
 
 
 
@@ -139,32 +152,68 @@ df.loc[df['nums'] <4, 'n2'] =0
 
 '''DictVectorizer'''
 # https://towardsdatascience.com/encoding-categorical-features-21a2651a065c
+# turn df into dict: don’t need to extract the categorical features, convert the whole dataframe into a dict.
+df_dict = df3.to_dict(orient='records') # turn each row as key-value pairs
+# show X_dict
+df_dict
+
+# DictVectorizer
+from sklearn.feature_extraction import DictVectorizer
+# instantiate a Dictvectorizer object for X
+dv = DictVectorizer(sparse=False) 
+# sparse = False makes the output is not a sparse matrix
+
+# apply dv_X on X_dict
+df_encoded = dv.fit_transform(df_dict)
+# show X_encoded
+df_encoded
+
+# vocabulary
+vocab = dv.vocabulary_
+# show vocab
+vocab
+
+vocab_order=list(zip(*sorted(vocab.items(), key=lambda x: x[-1])))[0] #why not working here?
+
+columns = [a[0] for a in sorted(dv.vocabulary_.items(), key=lambda x: x[-1])]
+df_encoded = pd.DataFrame(df_encoded, columns=columns)
+df_encoded
+
+
+''' CountVectorizer   can only work on single column'''
+from sklearn.feature_extraction.text import CountVectorizer
+cv = CountVectorizer()
+df_cv = cv.fit_transform(df3['rbc'])
+print(cv.get_feature_names())
+df_cv.toarray()
+df_cv = pd.DataFrame(df_cv.todense())
+df_cv = pd.DataFrame(df_cv.todense(), columns=cv.get_feature_names())
+
+# or
+df_cv = df_cv.rename(columns={v: k for k, v in cv.vocabulary_.items()})
+
+df_cv
+df_new = df3.join(df_cv)
+df_new
 
 
 
+'''to combine columns of text for NLP'''
+s1 = pd.Series(['a','b','a'], name='s1')
+s2 = pd.Series(['a','a','a'],name='s2')
+combo = s1 + s2
+combo.name = 'com'
+
+df_s1s2 = combo.to_frame()
+
+# or
+df_s1s2 = pd.DataFrame(combo)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# compare
+s1 = pd.Series(['a','b','a']).tolist()
+s2 = pd.Series(['a','a','a']).tolist()
+s1 + s2
 
 
 
