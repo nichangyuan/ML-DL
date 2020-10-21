@@ -34,10 +34,6 @@ Transforming the future of healthcare isn’t something we take lightly. It take
 
 If you’re ready to embrace your passion and do what you love with a company that’s committed to supporting your future, then you belong at Change Healthcare.Pursue purpose. Champion innovation. Earn trust. Be agile. Include all. Empower Your Future. Make a Difference.
 
-Title
-
-AI Data Scientist
-
 Overview Of Position
 
 The Data Scientist will be responsible for supporting Artificial Intelligence, Machine Learning, and Data Science solutions for Change Healthcare, reporting to an AI Data Science leader under the Chief AI Officer. We’re looking for data scientists with a passion for artificial intelligence to help drive a new generation of data and machine learning enabled services and products to impact healthcare.
