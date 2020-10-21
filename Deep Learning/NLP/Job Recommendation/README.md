@@ -21,7 +21,7 @@ This is a model built for people interested in jobs in Data Science field. Usual
 **RESULT:DATA ENGINEER with a probability of 84.425%**
 
 
-**INPUT: **
+**INPUT:** 
 Python, Numpy, Scipy, Scikit-Learn, Pandas, Matplotlib, Seaborn, Tensorflow, Keras.<br>
 Machine Learning and Deep Learning, A/B test, Flask, PySpark, Google Colab, Google Cloud Platform.
 
