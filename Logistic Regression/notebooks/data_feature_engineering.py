@@ -15,21 +15,6 @@ Created on Fri Oct  2 10:55:35 2020
     conditional transform using df.loc property
 '''
 
-'''rename column name, change case/type'''
-
-import pandas as pd; import numpy as np
-
-df = pd.DataFrame({"A": [1, 2, 3], "B": [4, 5, 6]})
-df=df.rename(str.lower, axis='columns')
-df.rename(index=str, inplace=True)
-df.index.dtype
-df.rename(index=str).index
-df
-
-s = pd.Series([1, 2, 3], dtype=np.int64, name='Numbers')
-s.dtype
-s.rename(index=str).index.dtype
-
 
 '''LabelEncoder & OneHotEncoder'''
 import pandas as pd; import numpy as np
@@ -217,6 +202,20 @@ s1 + s2
 
 
 
+'''rename column name, change case/type'''
+
+import pandas as pd; import numpy as np
+
+df = pd.DataFrame({"A": [1, 2, 3], "B": [4, 5, 6]})
+df=df.rename(str.lower, axis='columns')
+df.rename(index=str, inplace=True)
+df.index.dtype
+df.rename(index=str).index
+df
+
+s = pd.Series([1, 2, 3], dtype=np.int64, name='Numbers')
+s.dtype
+s.rename(index=str).index.dtype
 
 
 
