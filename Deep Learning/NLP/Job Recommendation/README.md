@@ -4,7 +4,7 @@ This is a model built for people interested in jobs in Data Science field. Usual
 - You can put part of your resume to the text field to check which job category fits your skills most. For example, I paste *Summary* and *Skills* from my resume, respectively, and the results show "**DATA SCIENTIST** with a probability of 100.0%", so is it when I paste all my resume there.
 - You can search jobs in any job boards like LinkedIn, Indeed, then copy and paste the job description to the text field.
 
-## Here you will see more INPUT and RESULTS:
+## Here you will see more INPUT and RESULTS:<br>
 
 **INPUT:** Data Analyst
 
