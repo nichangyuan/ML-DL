@@ -22,8 +22,8 @@ This is a model built for people interested in jobs in Data Science field. Usual
 
 
 **INPUT: **<br>
-	Python, Numpy, Scipy, Scikit-Learn, Pandas, Matplotlib, Seaborn, Tensorflow, Keras.
-	Machine Learning and Deep Learning, A/B test, Flask, PySpark, Google Colab, Google Cloud Platform.<br>
+Python, Numpy, Scipy, Scikit-Learn, Pandas, Matplotlib, Seaborn, Tensorflow, Keras.
+Machine Learning and Deep Learning, A/B test, Flask, PySpark, Google Colab, Google Cloud Platform.<br>
 
 
 **RESULT: DATA SCIENTIST with a probability of 100.0%**
