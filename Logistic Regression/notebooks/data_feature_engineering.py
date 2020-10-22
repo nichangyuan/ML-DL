@@ -5,7 +5,8 @@ Created on Fri Oct  2 10:55:35 2020
 @author: Chuck
 """
 
-'''These are collection of the following methods, to me DictVectorizer is easiest
+'''These are collection of methods for feature engineering
+
     LabelEncoder
     OneHotEncoder
     DictVectorizer
