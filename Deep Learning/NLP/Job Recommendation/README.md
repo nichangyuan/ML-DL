@@ -1,5 +1,4 @@
-![alterText](https://github.com/nichangyuan/ML-DL/blob/master/Deep%20Learning/NLP/Job%20Recommendation/02%20deployment2GCP/02_flaskapp/static/office.jpg?raw=true)
-
+<!--![alterText](https://github.com/nichangyuan/ML-DL/blob/master/Deep%20Learning/NLP/Job%20Recommendation/02%20deployment2GCP/02_flaskapp/static/office.jpg?raw=true)  -->
 <div align="center">
 <img src=https://github.com/nichangyuan/ML-DL/blob/master/Deep%20Learning/NLP/Job%20Recommendation/02%20deployment2GCP/02_flaskapp/static/office.jpg?raw=true" >
 <p>Perfectly balanced</p>
