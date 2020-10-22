@@ -1,7 +1,7 @@
 <!--![alterText](https://github.com/nichangyuan/ML-DL/blob/master/Deep%20Learning/NLP/Job%20Recommendation/02%20deployment2GCP/02_flaskapp/static/office.jpg?raw=true)  -->
 <div align="center">
 <img src=https://github.com/nichangyuan/ML-DL/blob/master/Deep%20Learning/NLP/Job%20Recommendation/02%20deployment2GCP/02_flaskapp/static/office.jpg?raw=true" >
-<p>Perfectly balanced</p>
+<p>Dream Job!</p>
 </div>
 
 This is a model built for people interested in jobs in Data Science field. Usually, jobs in this field are in 3 categories: *Data Engineer, Data Analyst, Data Scientist*. However, each company can name their jobs very differently, like some people working on data cleaning are also titled Data Scientist. Here in this model, Data Scientist means for those people working on ***Machine Learning, Deep Learning, AI, and Statistical Modeling***. 
