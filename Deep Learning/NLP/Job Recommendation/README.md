@@ -6,7 +6,7 @@
 
 This is a model built for people interested in jobs in Data Science field. Usually, jobs in this field are in 3 categories: *Data Engineer, Data Analyst, Data Scientist*. However, each company can name their jobs very differently, like some people working on data cleaning are also titled Data Scientist. Here in this model, Data Scientist means for those people working on ***Machine Learning, Deep Learning, AI, and Statistical Modeling***. 
 
-***Here is the url to test the model performance. To do that, please contact me to let me turn on the model on Google Cloud Platform:***
+***Here is the url to test the model performance. To do that, please contact me to let me turn on the model on Google Cloud Platform:***<br>
 [Link to Machine Learning Model testing url](http://104.198.56.7:5000/)
 - You can put part of your resume to the text field to check which job category fits your skills most. For example, I paste *Summary* and *Skills* from my resume, respectively, and the results show "**DATA SCIENTIST** with a probability of 100.0%", so is it when I paste all my resume there.
 - You can search jobs in any job boards like LinkedIn, Indeed, then copy and paste the job description to the text field.
