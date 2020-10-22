@@ -1,6 +1,6 @@
 ![alterText](https://github.com/nichangyuan/ML-DL/blob/master/Deep%20Learning/NLP/Job%20Recommendation/02%20deployment2GCP/02_flaskapp/static/office.jpg?raw=true)
 
-This is a model built for people interested in jobs in Data Science field. Usually, jobs in this field are in 3 categories: *Data Engineer, Data Analyst, Data Scientist*. However, each company can name their jobs very differently, like some people working on data cleaning are also titled Data Scientist. Here in this model, ***Data Scientist means those people working on Machine Learning, Deep Learning, AI, and Statistical Modeling***. 
+This is a model built for people interested in jobs in Data Science field. Usually, jobs in this field are in 3 categories: *Data Engineer, Data Analyst, Data Scientist*. However, each company can name their jobs very differently, like some people working on data cleaning are also titled Data Scientist. Here in this model, Data Scientist means for those people working on ***Machine Learning, Deep Learning, AI, and Statistical Modeling***. 
 
 ***Here is the url to test the model performance. To do that, please contact me to let me turn on the model on Google Cloud Platform:***
 http://104.198.56.7:5000/
