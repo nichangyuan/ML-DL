@@ -64,7 +64,10 @@ Below is the algorithym metrics for training and validation in XGBoost, from whi
 <br>
 
 <br>
-Below are the contents in the 3 text files which were used in cURL testing and Postman testing:<br><br>
+
+*Below are the contents in the 3 text files which were used in cURL testing and Postman testing:*
+
+<br><br>
 <div align="center">
 <img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/data_test.PNG?raw=true" >
 </div>
