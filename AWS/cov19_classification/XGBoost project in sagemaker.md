@@ -70,10 +70,15 @@ Below are the contents in the 3 text files which were used in cURL testing and P
 </div>
 <br>
 <br>
+
 **Conclusions:**
-- XGBoost model deployed in SageMaker successfully;<br>
+
+<br>
+
+- XGBoost model deployed in SageMaker successfully;
 - XGBoost in Sagemaker has better performance comparing to the same model I established locally;
 - The test results are encouraging: curl 1 patient survived and result was 0.023; curl 2 and curl 3 (Postman was for same data as curl 3) patients died and results are 0.92 and 0.84, respectively.
+
 <br>
 
 
