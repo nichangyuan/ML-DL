@@ -17,9 +17,10 @@ I applied 6 classification models: 1) Logistic Regression, 2) Random Forest, 3) 
 
     **-- For detailed analysis please refer to the notebook covid19.ipynb in current folder** 
 
-From above comparison, XGBoost has the best performance. So I will do the analysis and deploy model using XGBoost in SageMaker. I prepared SageMaker specific data in the notebook covid19.ipynb. The generated datasets can be seen in *data* subfolder, they are named *covid_train.csv and covid_test.csv*. Next, I loaded analysis data into S3.
+From above comparison, XGBoost has the best performance. So I will do the analysis and deploy model using XGBoost in SageMaker. <br><br>
+I. I prepared SageMaker specific data in the notebook covid19.ipynb. The generated datasets can be seen in *data* subfolder, they are named *covid_train.csv and covid_test.csv*. Next, I loaded analysis data into S3.
 <br><br>
-<font size=6>Below is the training jobs screenshot. Among them, covid-nov2020-im2 was the final trainig job set up:</font>
+II. Next step is the training jobs screenshot. Among them, covid-nov2020-im2 was the final trainig job set up:
 <br>
 <!--![](https://github.com/nichangyuan/ML-DL/blob/master/ML.jpg?raw=true)-->
 <div align="center">
@@ -27,7 +28,7 @@ From above comparison, XGBoost has the best performance. So I will do the analys
 </div>
 <br>
 <br>
-Below is the hyperparameters setting for XGBoost:<br><br>
+Below is how the hyperparameters were set up for XGBoost:<br><br>
 <div align="center">
 <img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/hyperparameters.PNG?raw=true" >
 </div>
@@ -39,13 +40,14 @@ Below is the algorithym metrics for training and validation in XGBoost, from whi
 </div>
 <br>
 <br>
-Below is the Endpoints:<br><br>
+III. Create Endpoint. <br>Below is the Endpoints:<br><br>
 <div align="center">
 <img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/Endpoints.PNG?raw=true" >
 </div>
 <br>
 <br>
-Next, build the external Endpoint - Lambda, to communicate with internal Endpoint, also to make the gateway API for testing.<br>After these, I did testing with cURL and postman respectively, as shown below:<br><br>
+IV. Next, build the external Endpoint - Lambda, to communicate with internal Endpoint, also to make the gateway API for testing.<br>
+V. After these, I did testing with cURL and postman respectively, as shown below:<br><br>
 <div align="center">
 <img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/curl_test.PNG?raw=true" >
 </div>
