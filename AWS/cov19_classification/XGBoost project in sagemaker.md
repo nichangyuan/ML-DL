@@ -34,8 +34,8 @@ Below is how the hyperparameters were set up for XGBoost:<br><br>
 </div>
 <br>
 <br>
-Below is the algorithym metrics for training and validation in XGBoost, from which it can be seen that XGBoost in SageMaker has better performance than that from previous local test in Jupyter Notebook 
-**(0.96 v.s.0.91)**
+Below is the **algorithym metrics** for training and validation in XGBoost, from which it can be seen that XGBoost in SageMaker has better performance than that from previous local test in Jupyter Notebook 
+**(0.96 v.s. 0.91)**
 :
 <br><br>
 <div align="center">
