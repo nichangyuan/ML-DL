@@ -1,10 +1,10 @@
 This is a classification project of **COVID-19** data from kaggle.com. In the data, there are about 5% patients who die from COVID-19. The purpose of this project is to establish a machine learning model with the binary label, survival or death, and with the features like demographic factors, disease conditions, and treatment. Then deploy the model in Amazon SageMaker.
 
 I downloaded data (version 6 - 19-5-20.csv) from kaggle.com, then worked on 
-1). Pre-model Analysis: process and visualize data; get insights of features and target.
-2). Problem Definition: translate the business needs into machine learning problems; design metrics to measure model performance.
-3). Feature Engineering: create features which might improve model performance.
-4). Modeling: Model selection, feature elimination, validation, hyperparameter tuning.
+1. Pre-model Analysis: process and visualize data; get insights of features and target.
+2. Problem Definition: translate the business needs into machine learning problems; design metrics to measure model performance.
+3. Feature Engineering: create features which might improve model performance.
+4. Modeling: Model selection, feature elimination, validation, hyperparameter tuning.
 
 I applied 6 classification models: 1) Logistic Regression, 2) Random Forest, 3) Support Vector Machine (SVM), 4) K-Nearest Neighbors(KNN), 5) XGBoost with SMOTE/MINMAX Scaler, 6) XGBoost without SMOTE/MINMAX Scaler. I used ROC AUC as the metric to compare model performance. Below is a summary of the results.<br><br>
 **ROC AUC from test data of the following models:**
@@ -26,8 +26,7 @@ From above comparison, XGBoost has the best performance. So I will do the analys
 <img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/Training_jobs.PNG?raw=true" >
 </div>
 <br>
-<br><br>
-<!--![](https://github.com/nichangyuan/ML-DL/blob/master/ML.jpg?raw=true)-->
+<br>Below is the hyperparameters setting:<br>
 <div align="center">
 <img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/hyperparameters.PNG?raw=true" >
 </div>
