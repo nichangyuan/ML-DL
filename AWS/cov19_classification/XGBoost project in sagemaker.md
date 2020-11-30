@@ -27,7 +27,8 @@ From above comparison, XGBoost has the best performance. Below is the DEMO how I
 
 <br><br>
 
-**I.** I prepared SageMaker specific data in the notebook covid19.ipynb. The generated datasets can be seen in *data* subfolder, they are named *covid_train.csv and covid_test.csv*. Next, I loaded analysis data into S3.
+**I.** I prepared SageMaker specific data in the notebook covid19.ipynb (see it in the same folder). The generated datasets can be seen in the ***data*** subfolder, they are named *covid_train.csv and covid_test.csv*. Next, I loaded analysis data into S3.
+
 <br><br>
 **II.** Next step is the training jobs screenshot. Among them, covid-nov2020-im2 was the final trainig job set up:
 <br>
