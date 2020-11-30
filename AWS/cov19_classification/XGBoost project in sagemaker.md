@@ -21,7 +21,12 @@ I applied 6 classification models: 1) Logistic Regression, 2) Random Forest, 3) 
 
     **-- For detailed analysis please refer to the notebook covid19.ipynb in current folder** 
 
-From above comparison, XGBoost has the best performance. So I will do the analysis and deploy model using XGBoost in SageMaker. <br><br>
+<br><br>
+
+From above comparison, XGBoost has the best performance. Below is the DEMO how I deployed the model using XGBoost in SageMaker. 
+
+<br><br>
+
 **I.** I prepared SageMaker specific data in the notebook covid19.ipynb. The generated datasets can be seen in *data* subfolder, they are named *covid_train.csv and covid_test.csv*. Next, I loaded analysis data into S3.
 <br><br>
 **II.** Next step is the training jobs screenshot. Among them, covid-nov2020-im2 was the final trainig job set up:
