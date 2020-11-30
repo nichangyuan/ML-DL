@@ -26,61 +26,62 @@ From above comparison, XGBoost has the best performance. So I will do the analys
 <img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/Training_jobs.PNG?raw=true" >
 </div>
 <br>
-<br>Below is the hyperparameters setting for XGBoost:<br><br>
+<br>
+Below is the hyperparameters setting for XGBoost:<br><br>
 <div align="center">
 <img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/hyperparameters.PNG?raw=true" >
 </div>
 <br>
 <br>
-<br>Below is the algorithym metrics for training and validation in XGBoost, from which can be seen that XGBoost in SageMaker has better performance that the result from previous Jupyter Notebook (0.96 v.s. 0.91:<br><br>
+Below is the algorithym metrics for training and validation in XGBoost, from which can be seen that XGBoost in SageMaker has better performance that the result from previous Jupyter Notebook (0.96 v.s. 0.91):<br><br>
 <div align="center">
 <img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/auc.PNG?raw=true" >
 </div>
 <br>
 <br>
-<br>Below is the Endpoints:<br><br>
+Below is the Endpoints:<br><br>
 <div align="center">
 <img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/Endpoints.PNG?raw=true" >
 </div>
 <br>
 <br>
-<br>Below is the hyperparameters setting for XGBoost:<br><br>
+Below is the hyperparameters setting for XGBoost:<br><br>
 <div align="center">
 <img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/hyperparameters.PNG?raw=true" >
 </div>
 <br>
 <br>
-<br>Below is the hyperparameters setting for XGBoost:<br><br>
+Below is the hyperparameters setting for XGBoost:<br><br>
 <div align="center">
 <img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/hyperparameters.PNG?raw=true" >
 </div>
 <br>
 <br>
-<br>Below is the hyperparameters setting for XGBoost:<br><br>
+Below is the hyperparameters setting for XGBoost:<br><br>
 <div align="center">
 <img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/hyperparameters.PNG?raw=true" >
 </div>
 <br>
 <br>
-<br>Below is the hyperparameters setting for XGBoost:<br><br>
+Below is the hyperparameters setting for XGBoost:<br><br>
 <div align="center">
 <img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/hyperparameters.PNG?raw=true" >
 </div>
 <br>
 <br>
-<br>Below is the hyperparameters setting for XGBoost:<br><br>
+Below is the hyperparameters setting for XGBoost:<br><br>
 <div align="center">
 <img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/hyperparameters.PNG?raw=true" >
 </div>
 <br>
 <br>
-<br>Below is the hyperparameters setting for XGBoost:<br><br>
+Below is the hyperparameters setting for XGBoost:<br><br>
 <div align="center">
 <img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/hyperparameters.PNG?raw=true" >
 </div>
 <br>
 <br>
-<br>Below is the hyperparameters setting for XGBoost:<br><br>
+Below is the hyperparameters setting for XGBoost:<br><br>
 <div align="center">
 <img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/hyperparameters.PNG?raw=true" >
 </div>
