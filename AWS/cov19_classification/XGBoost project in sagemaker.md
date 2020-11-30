@@ -6,7 +6,7 @@ I downloaded data (version 6 - 19-5-20.csv) from kaggle.com, then worked on
 3. Feature Engineering: create features which might improve model performance.
 4. Modeling: Model selection, feature elimination, validation, hyperparameter tuning.
 
-I applied 6 classification models: 1) Logistic Regression, 2) Random Forest, 3) Support Vector Machine (SVM), 4) K-Nearest Neighbors(KNN), 5) XGBoost with SMOTE/MINMAX Scaler, 6) XGBoost without SMOTE/MINMAX Scaler. I used ROC AUC as the metric to compare model performance. Below is a summary of the results.
+I applied 6 classification models: 1) Logistic Regression, 2) Random Forest, 3) Support Vector Machine (SVM), 4) K-Nearest Neighbors(KNN), 5) XGBoost with SMOTE/MINMAX Scaler, 6) XGBoost without SMOTE/MINMAX Scaler. I used ROC AUC as the metric to compare model performance. Below is a summary of the results.<br>
 **ROC AUC from test data of the following models:**
 1) Logistic Regression - 0.9013883266258662
 2) Random Forest - 0.719504515633558
