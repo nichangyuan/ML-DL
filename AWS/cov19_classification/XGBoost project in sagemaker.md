@@ -40,13 +40,18 @@ Below is the algorithym metrics for training and validation in XGBoost, from whi
 </div>
 <br>
 <br>
+
 **III.** Create Endpoint. <br>Below is the Endpoints:<br><br>
 <div align="center">
 <img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/Endpoints.PNG?raw=true" >
 </div>
 <br>
 <br>
-**IV.** Next, build the external Endpoint - Lambda, to communicate with internal Endpoint, also to make the gateway API for testing.<br><br>
+
+**IV.** Next, build the external Endpoint - Lambda, to communicate with internal Endpoint, also to make the gateway API for testing.
+
+<br><br>
+
 **V.** After these, I did testing with cURL and postman respectively, as shown below:<br><br>
 <div align="center">
 <img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/curl_test.PNG?raw=true" >
