@@ -15,7 +15,7 @@ I applied 6 classification models: 1) Logistic Regression, 2) Random Forest, 3) 
 5) XGBoost with SMOTE/MINMAX Scaler - 0.8660422570428405
 6) XGBoost without SMOTE/MINMAX Scaler - 0.9085525414950111
 
-** -- For detailed analysis please refer to the notebook covid19.ipynb in current folder ** 
+**-- For detailed analysis please refer to the notebook covid19.ipynb in current folder ** 
 
 From above comparison, XGBoost has the best performance. So I am going to load data into S3. Data were prepared in the notebook covid19.ipynb in the data folder, they are *covid_train.csv and covid_test.csv*. 
 
