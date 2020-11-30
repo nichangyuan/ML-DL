@@ -34,13 +34,13 @@ From above comparison, XGBoost has the best performance. Below is the DEMO how I
 <br>
 <!--![](https://github.com/nichangyuan/ML-DL/blob/master/ML.jpg?raw=true)-->
 <div align="center">
-<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/Training_jobs.PNG?raw=true" >
+<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/sagemaker_snapshots/Training_jobs.PNG?raw=true" >
 </div>
 <br>
 <br>
 Below is how the hyperparameters were set up for XGBoost:<br><br>
 <div align="center">
-<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/hyperparameters.PNG?raw=true" >
+<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/sagemaker_snapshots/hyperparameters.PNG?raw=true" >
 </div>
 <br>
 <br>
@@ -51,14 +51,14 @@ Below is the **algorithym metrics** for training and validation in XGBoost, from
 
 <br><br>
 <div align="center">
-<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/auc.PNG?raw=true" >
+<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/sagemaker_snapshots/auc.PNG?raw=true" >
 </div>
 <br>
 <br>
 
 **III.** Create Endpoint. <br>Below is the Endpoints:<br><br>
 <div align="center">
-<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/Endpoints.PNG?raw=true" >
+<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/sagemaker_snapshots/Endpoints.PNG?raw=true" >
 </div>
 <br>
 <br>
@@ -69,12 +69,12 @@ Below is the **algorithym metrics** for training and validation in XGBoost, from
 
 **V.** After these, I did testing with cURL and postman respectively, as shown below:<br><br>
 <div align="center">
-<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/curl_test.PNG?raw=true" >
+<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/sagemaker_snapshots/curl_test.PNG?raw=true" >
 </div>
 <br>
 <br>
 <div align="center">
-<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/Postman3.PNG?raw=true" >
+<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/sagemaker_snapshots/Postman3.PNG?raw=true" >
 </div>
 <br>
 
@@ -94,7 +94,7 @@ Each data array has 8 data points, which are in order corresponding to 'bg_disea
 
 <br><br>
 <div align="center">
-<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/data_test.PNG?raw=true" >
+<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/sagemaker_snapshots/data_test.PNG?raw=true" >
 </div>
 <br>
 <br>
