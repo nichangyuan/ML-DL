@@ -45,17 +45,20 @@ Below is the Endpoints:<br><br>
 </div>
 <br>
 <br>
-Below is the hyperparameters setting for XGBoost:<br><br>
+Next, build the external Endpoint - Lambda, to communicate with internal Endpoint, also to make the gateway API for testing.<br>After these, I did testing with cURL and postman respectively, as shown below:<br><br>
 <div align="center">
-<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/hyperparameters.PNG?raw=true" >
+<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/curl_test.PNG?raw=true" >
 </div>
 <br>
 <br>
-Below is the hyperparameters setting for XGBoost:<br><br>
 <div align="center">
-<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/hyperparameters.PNG?raw=true" >
+<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/Postman3.PNG?raw=true" >
 </div>
 <br>
+
+
+
+
 <br>
 Below is the hyperparameters setting for XGBoost:<br><br>
 <div align="center">
