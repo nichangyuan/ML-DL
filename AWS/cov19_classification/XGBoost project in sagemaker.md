@@ -70,7 +70,16 @@ Below is the **algorithym metrics** for training and validation in XGBoost, from
 
 <br>
 
-*Below are the contents in the 3 text files which were used in cURL testing and Postman testing:*
+*Below are the contents in the 3 text files which were used in cURL testing and Postman testing:*<br>
+Each data array has 8 data points, which are corresponding to 'bg_disease_cnt', 'symptoms_cnt', 'days_onset', 'days_confirm', 'gender', 'age', 'smoke', 'treat'<br>
+-'bg_disease_cnt' is the counts of background diseases; 
+- 'symptoms_cnt' is the counts of symptoms when diagnosed as COVID-19; 
+- 'days_onset' is the days from diagnosis to the analysis day (May 19, 2020);     
+- 'days_confirm' is the days from the day COVID-19 confirmed to the analysis day;     
+- 'gender' is 1 for female, 2 for male, 0 for missing; 
+- 'age', self-explained; 
+- 'smoke': smoker is 1, nonsmoker is 0;   
+- 'treat' is 3 if hospitalized, 2 if go to clinical, 0 if home isolation.
 
 <br><br>
 <div align="center">
