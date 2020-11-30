@@ -56,15 +56,17 @@ Next, build the external Endpoint - Lambda, to communicate with internal Endpoin
 </div>
 <br>
 
-
-
-
 <br>
-Below is the hyperparameters setting for XGBoost:<br><br>
+Below is the content in the 3 text files in cURL testing and Postman testing:<br><br>
 <div align="center">
-<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/hyperparameters.PNG?raw=true" >
+<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/data_test.PNG?raw=true" >
 </div>
 <br>
+
+
+
+
+
 <br>
 Below is the hyperparameters setting for XGBoost:<br><br>
 <div align="center">
