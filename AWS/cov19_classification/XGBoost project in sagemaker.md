@@ -85,7 +85,7 @@ Below is the **algorithym metrics** for training and validation in XGBoost, from
 
 - XGBoost model deployed in SageMaker successfully;
 - XGBoost in Sagemaker has better performance comparing to the same model I established locally;
-- The test results are encouraging: curl 1 patient survived and result was 0.023; curl 2 and curl 3 (Postman was for same data as curl 3) patients died and results are 0.92 and 0.84, respectively.
+- The testing results are encouraging: curl 1 patient **survived** and result was 0.023, which is close to 0; curl 2 and curl 3 (Postman was for same data as curl 3) patients **died** and results are 0.92 and 0.84, respectively, which are close to 1. 
 
 <br>
 
@@ -93,12 +93,6 @@ Below is the **algorithym metrics** for training and validation in XGBoost, from
 
 
 
-<br>
-Below is the hyperparameters setting for XGBoost:<br><br>
-<div align="center">
-<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/hyperparameters.PNG?raw=true" >
-</div>
-<br>
 
 
 
