@@ -1,3 +1,7 @@
+**Classification with XGBoost in SageMaker**
+
+<br><br>
+
 This is a classification project of **COVID-19** data from kaggle.com. In the data, there are about 5% patients who die from COVID-19. The purpose of this project is to establish a machine learning model with the binary label, survival or death, and with the features like demographic factors, disease conditions, and treatment. Then deploy the model in Amazon SageMaker.
 
 I downloaded data (version 6 - 19-5-20.csv) from kaggle.com, then worked on 
