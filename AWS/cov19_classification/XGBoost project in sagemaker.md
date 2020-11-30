@@ -18,13 +18,20 @@ I applied 6 classification models: 1) Logistic Regression, 2) Random Forest, 3) 
     **-- For detailed analysis please refer to the notebook covid19.ipynb in current folder** 
 
 From above comparison, XGBoost has the best performance. So I will do the analysis and deploy model using XGBoost in SageMaker. I prepared SageMaker specific data in the notebook covid19.ipynb. The generated datasets can be seen in *data* subfolder, they are named *covid_train.csv and covid_test.csv*. Next, I loaded analysis data into S3.
+<br><br>
+Below is the training jobs screenshot:
+<br><br>
+<!--![](https://github.com/nichangyuan/ML-DL/blob/master/ML.jpg?raw=true)-->
+<div align="center">
+<img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/Training_jobs.PNG?raw=true" >
+</div>
 <br>
+<br><br>
 <!--![](https://github.com/nichangyuan/ML-DL/blob/master/ML.jpg?raw=true)-->
 <div align="center">
 <img src="https://github.com/nichangyuan/ML-DL/blob/master/AWS/cov19_classification/hyperparameters.PNG?raw=true" >
-<p>Dream Job!</p>
 </div>
-
+<br>
 
 
 
