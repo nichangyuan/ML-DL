@@ -4,7 +4,8 @@
 
 This is a classification project of **COVID-19** with data from [kaggle](https://www.kaggle.com/shirmani/characteristics-corona-patients). In the data, there are about 5% patients who die from COVID-19. The purpose of this project is to establish a machine learning model with the binary label, survival or death, and with the features like demographic factors, disease conditions, and treatment. Then deploy the model in Amazon SageMaker.
 
-I downloaded data (version 6 - 19-5-20.csv) from kaggle.com, then worked on 
+I downloaded data (version 6 - 19-5-20.csv) from [kaggle](https://www.kaggle.com/shirmani/characteristics-corona-patients), then worked on the following aspects in [Jupyter notebook in the same folder covid19.ipynb](https://github.com/nichangyuan/ML-DL/tree/master/AWS/cov19_classification/covid19.ipynb)
+
 1. Pre-model Analysis: process and visualize data; get insights of features and target.
 2. Problem Definition: translate the business needs into machine learning problems; design metrics to measure model performance.
 3. Feature Engineering: create features which might improve model performance.
@@ -19,7 +20,7 @@ I applied 6 classification models: 1) Logistic Regression, 2) Random Forest, 3) 
 5) XGBoost with SMOTE/MINMAX Scaler - 0.8660422570428405
 6) XGBoost without SMOTE/MINMAX Scaler - 0.9085525414950111
 
-    **-- For detailed analysis please refer to the notebook covid19.ipynb in current folder** 
+    **-- For detailed analysis please refer to the notebook [covid19.ipynb](https://github.com/nichangyuan/ML-DL/tree/master/AWS/cov19_classification/covid19.ipynb) in current folder** 
 
 <br><br>
 
