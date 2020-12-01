@@ -2,7 +2,7 @@
 
 <br><br>
 
-This is a classification project of **COVID-19** from kaggle (https://www.kaggle.com/shirmani/characteristics-corona-patients). In the data, there are about 5% patients who die from COVID-19. The purpose of this project is to establish a machine learning model with the binary label, survival or death, and with the features like demographic factors, disease conditions, and treatment. Then deploy the model in Amazon SageMaker.
+This is a classification project of **COVID-19** from [kaggle](https://www.kaggle.com/shirmani/characteristics-corona-patients). In the data, there are about 5% patients who die from COVID-19. The purpose of this project is to establish a machine learning model with the binary label, survival or death, and with the features like demographic factors, disease conditions, and treatment. Then deploy the model in Amazon SageMaker.
 
 I downloaded data (version 6 - 19-5-20.csv) from kaggle.com, then worked on 
 1. Pre-model Analysis: process and visualize data; get insights of features and target.
